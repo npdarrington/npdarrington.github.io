@@ -20,19 +20,6 @@ a:hover {
   transform: scale(1.2);
 }
 
-nav ul {
-  list-style: none;
-}
-
-nav ul li {
-  line-height: 5rem;
-}
-
-nav a {
-  color: var(--pure-white);
-  font-size: 2.5rem;
-}
-
 #left-menu-container {
   display: flex;
   flex-direction: column;
@@ -45,10 +32,34 @@ nav a {
   color: var(--pure-white);
 }
 
+#left-menu-container h1 {
+  font-size: 2.5rem;
+  color: var(--yellow);
+}
+
+#left-menu-container h2 {
+  text-align: center;
+  font-size: 1.8rem;
+}
+
 .profile-picture {
   border-radius: 50%;
   width: 100%;
   height: auto;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  text-align: center;
+  line-height: 5rem;
+}
+
+nav a {
+  color: var(--pure-white);
+  font-size: 2.5rem;
 }
 
 .contact-info {
