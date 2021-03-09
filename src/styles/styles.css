@@ -20,6 +20,19 @@ a:hover {
   transform: scale(1.2);
 }
 
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  line-height: 5rem;
+}
+
+nav a {
+  color: var(--pure-white);
+  font-size: 2.5rem;
+}
+
 #left-menu-container {
   display: flex;
   flex-direction: column;
