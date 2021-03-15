@@ -20,11 +20,16 @@ a:hover {
   transform: scale(1.2);
 }
 
+.page-container {
+  display: flex;
+}
+
 #left-menu-container {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+  position: fixed;
   width: 25rem;
   height: 100vh;
   padding: 2rem;
@@ -80,6 +85,10 @@ nav a {
   justify-content: space-evenly;
 }
 
+.contact-info-top > a:first-child {
+  filter: brightness(0) invert(1);
+}
+
 .contact-info-bottom {
   justify-content: center;
 }
@@ -87,3 +96,8 @@ nav a {
 .contact-info img {
   height: 4.5rem;
 }
+
+#right-body-container {
+  padding-left: 25rem;
+}
+
